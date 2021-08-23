@@ -1,0 +1,32 @@
+{
+  "name": "grocery-list-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsnd --respawn src/server.ts",
+    "start": "ts-node ./src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^15.12.4",
+    "@types/uuid": "^8.3.1",
+    "ts-node-dev": "^1.1.8",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "apollo-server": "^2.25.2",
+    "apollo-server-fastify": "^2.25.2",
+    "class-validator": "^0.13.1",
+    "fastify": "^2.15.3",
+    "graphql": "^15.5.1",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.0.0",
+    "type-graphql": "^1.1.1",
+    "uuid": "^8.3.2"
+  }
+}
